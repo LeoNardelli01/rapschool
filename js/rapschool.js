@@ -4,8 +4,9 @@ var video = $("#video");
 navigator.webcam = (navigator.getUserMedia);
 
 function success(stream) {
-  video.srcObject(stream)
-  video.play()
+  video.srcObject= stream
+  console.log(video.srcObject)
+  video.play
 }
 function error(error) {
   alert("sucecio un error");
