@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  
+}
+#video{
+  width: 80vw;
+  height: 70vh;
+}
+
+button {
+  max-width: 50vw;
+}
+
+body{
+  background-image: url("../img/11901.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
